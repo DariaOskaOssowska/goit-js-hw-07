@@ -1,6 +1,7 @@
 import { galleryItems } from './gallery-items.js'
 
 console.log(galleryItems)
+// Change code below this line
 
 const gallery = document.querySelector('.gallery')
 const items = []
@@ -44,5 +45,4 @@ gallery.addEventListener('click', e => {
 		}
 	})
 })
-
 
